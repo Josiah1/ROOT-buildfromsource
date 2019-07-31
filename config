@@ -1,2 +1,6 @@
 cmake -DCMAKE_INSTALL_PREFIX=/home/lijj/WORK/ROOT/root-6.18.00-install -Dbuiltin_xrootd=ON -Dminuit2=ON -Dbuiltin-pcre=ON -Dbuiltin-freetype=ON -Dcintex=ON -Dexplicitlink=ON -Dgdml=ON -Dgenvector=ON -Dmathmore=ON -Dminuit2=ON -Dmysql=ON -Dpython=ON -Dreflex=ON -Droofit=ON -Dunuran=ON /home/lijj/WORK/ROOT/root-6.18.00/
-cmake --build .
+cmake --build . --target install -- -jN
+
+#or pyroot for python3
+#cmake -DCMAKE_INSTALL_PREFIX=/home/lijj/WORK/ROOT/root-6.18.00-install -DGSL_DIR=/usr/local -Dbuiltin_xrootd=ON -Droofit=ON -Dpython3=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../root-sources
+#cmake --build . --target install -- -jN
