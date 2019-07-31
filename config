@@ -1,0 +1,2 @@
+cmake -DCMAKE_INSTALL_PREFIX=/home/lijj/WORK/ROOT/root-6.18.00-install -Dbuiltin_xrootd=ON -Dminuit2=ON -Dbuiltin-pcre=ON -Dbuiltin-freetype=ON -Dcintex=ON -Dexplicitlink=ON -Dgdml=ON -Dgenvector=ON -Dmathmore=ON -Dminuit2=ON -Dmysql=ON -Dpython=ON -Dreflex=ON -Droofit=ON -Dunuran=ON /home/lijj/WORK/ROOT/root-6.18.00/
+cmake --build .
