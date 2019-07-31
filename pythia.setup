@@ -1,0 +1,2 @@
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/ROOT/root-install -DPYTHIA8_DIR=$PYTHIA8 -DPYTHIA8_INCLUDE_DIR=$PYTHIA8/include -DPYTHIA8_LIBRARY=$PYTHIA8/lib/libpythia8.so -DGSL_DIR=/usr/local -Dbuiltin_xrootd=ON -Droofit=ON -Dpythia8=ON ../root-sources
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/ROOT/ROOT-PY3/root-install -DPYTHIA8_DIR=$PYTHIA8 -DPYTHIA8_INCLUDE_DIR=$PYTHIA8/include -DPYTHIA8_LIBRARY=$PYTHIA8/lib/libpythia8.so -DGSL_DIR=/usr/local -Dbuiltin_xrootd=ON -Droofit=ON -Dpythia8=ON -Dpython3=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../root-sources
